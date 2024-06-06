@@ -1,0 +1,823 @@
+nav {
+    /* background-color: #4465dd; */
+    padding: 15px;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    margin-left: 50px;
+    height: 50px; 
+    width: auto; 
+    border-radius: 50%;
+  }
+
+  nav a {
+    color: #0f1a3c;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left:500px;
+  }
+
+  .links a {
+    margin: 0 50px; 
+  }
+
+   /* NAV BAR END  */
+
+  .sec-1 {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    /* background-color: #4465dd; */
+  }
+
+  .sec-1-img {
+    margin-left: 200px;
+  }
+
+  .img-box {
+    height: 400px;
+    width: 500px solid;
+    margin-top: 50px;
+    border-radius: 20px;
+  }
+
+  .sec-1-content {
+    margin-left: 50px;
+    width: 650px;
+    color: #0f1a3c;
+    background-color: #fff;
+  }
+
+  .sec-1-content>h1{
+    font-size: 80px;
+    font-weight: bold;
+  }
+
+  .sec-1-content>p{
+    font-size: 20px;
+    margin-top: -20px;
+  }
+
+
+  .sec-1-content>div{
+    background-color: #f8e7cd;
+    width: 400px;
+    height: 50px;
+    border-radius: 30px;
+  }
+
+  .sec-1-content>div>input{
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: none;
+  }
+
+  .sec-1-content>div>button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: #fe8c56;
+    color: white;
+  }
+
+  .sec-1-content>div>button:hover{
+    cursor: pointer;
+    transform: scale(1.12);
+  }
+
+  /* SEC-1 END */
+
+  .sec-2 {
+    display: flex;
+    background-color: #f8e7cd;
+    justify-content: space-between;
+    align-items: flex-start; /* Adjusted to align items at the start of the flex container */
+    padding: 50px;
+  }
+
+  .sec2card-container {
+    display: flex;
+    gap: 20px;
+  }
+
+  .sec2card {
+    flex: 1; /* Adjusted to make the cards take equal width */
+    padding: 20px;
+    border: 1px #0f1a3c;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    height: 250px;
+    margin-top: 10px;
+    text-align: center;
+    color: #0f1a3c;
+  }
+  .sec2card:hover {
+    transform: scale(1.12);
+  }
+
+  .sec-2content {
+    margin-left: 30px;
+    margin-top: -20px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    color: #0f1a3c;
+    }
+
+  .sec-2content>div{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sec-2content>h2{
+    font-size: 30px;
+    color: #0f1a3c;
+  }
+
+  .sec-2content>button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:#fe8c56  ;
+    color: white;
+  }
+
+  .sec-2content>button:hover{
+    cursor: pointer;
+    transform: scale(1.12);
+  }
+  
+  /* Sec-3 start */
+  
+  .sec-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+    background-color: #193282;
+  }
+
+  .sec3card-container {
+    display: flex;
+    overflow: hidden; /* Hide the overflow to show only one card at a time */
+  }
+
+  .sec3card {
+    flex: 0 0 auto; /* Make cards non-flexible */
+    width: 500px; /* Adjust the width as needed */
+    height: 300px;
+    margin-left: 100px;
+    margin-right: 20px; /* Adjust the margin as needed */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+
+  }
+
+  .sec3card>button{
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    width: 70px;
+    margin-left: 400px;
+    margin-top: 40px;
+    height: 40px;
+    background-color: goldenrod;
+  }
+
+  .sec3card>button:hover{
+    cursor: pointer;
+    transform: scale(1.12);
+  }
+
+  .sec3card-container:hover {
+    transform: scale(1.12);
+  }
+
+  .sec-3-content {
+    align-items: center;
+    margin-top: 30px;
+    width: 400px;
+    margin-left: 100px;
+  }
+
+  .next-button:hover{
+    transform: scale(1.12);
+  }
+
+  .next-button {
+    margin-left: 20px;
+    cursor: pointer;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: #fe8c56;
+    width: 100px;
+  }
+
+  .nav-button {
+    margin: 0 10px;
+    cursor: pointer;
+    margin-left: 100px;
+    border-radius: 20px;
+    background-color: #fe8c56;
+    width: 100px;
+  }
+
+  .nav-button:hover{
+    transform: scale(1.12);
+  }
+
+  .seq{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0f1a3c;
+    
+  }
+
+  .seq1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+  }
+
+  .butt{
+    display: flex;
+  }
+
+  .sec-3-content>h2{
+    font-size: 30px;
+    color: white;
+  }
+
+  .sec-3-content>button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:#fe8c56  ;
+    color: white;
+  }
+
+  .sec-3-content>button:hover{
+    transform: scale(1.12);
+    cursor: pointer;
+  }
+
+  .card-content{
+    display: flex;
+    color: white;
+    margin-top: 100px;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .card-butt{
+    margin-left: 150px;
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 120px;
+    background-color: #fe8c56;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+  }
+
+  .card-butt:hover{
+    cursor: pointer;
+    transform: scale(1.12);
+  }
+
+  .empty {
+    width: 100%;
+    height: 300px;
+  }
+
+  .empty{
+    height: 300px;
+    width: 100%;
+    background-color: #193282;
+    border-bottom-left-radius: 40px ;
+    border-bottom-right-radius: 40px;
+  }
+
+  .upper{
+    width: 80%;
+    height: 500px;
+    background-color: #7591fa;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -250px;
+    border-radius: 30px;
+    border: 10px green;
+  }
+
+  .seq3{
+    height: 50px;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 65px;
+    margin-left: 50px;
+    margin-right: 20px;
+  }
+
+  .menubutt{
+    height: 50px;
+    margin-left: 130px;
+    width: 100px;
+    border-radius: 30px;
+    color: white;
+    background-color: transparent;
+  }
+
+  .menubutt:hover{
+    cursor: pointer;
+    transform: scale(1.12);
+  }
+
+  .viewallbutt{
+    height: 50px;
+    margin-left: 30px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: #fe8c56;
+    color: white;
+  }
+
+  .viewallbutt:hover{
+    cursor: pointer;
+    transform: scale(1.12);
+  }
+
+  .upperflex{
+    display: flex;
+  }
+
+  .upperflex>h2{
+    font-size: 60px;
+    color: white;
+  }
+
+  .back{
+    width: 100%;
+    height: 600px;
+    background-color: #f7f5f2;
+  }
+
+  .upper2{
+    width: 1000px;
+    height: 400px;
+    position: absolute;
+    margin-left: 250px;
+    border-radius: 30px;
+    margin-top: -510px;
+    background-color: white;
+  }
+
+  .upper3{
+    width: 580px;
+    height: 470px;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: -510px;
+    border-radius: 30px;
+    background-color: #FAB325;
+  }
+
+  .upper2-content{
+    margin-left: 600px;
+    background-color: white;
+  }
+
+  .circleline{
+    border-radius: 50%;
+    border: 2px solid;
+    width: 20px;
+    height: 20px;
+
+  }
+
+  .tick{
+    border-radius: 50%;
+    border: 2px solid;
+    width: 10px;
+    height: 10px;
+    background-color: #193282;
+    margin-left: 3.7px;
+    margin-top:3.5px;
+  }
+
+  .flex{
+    display: flex;
+    margin-top: 20px;
+   }
+
+  .write{
+    margin-left: 15px;
+    font-size: 20px;
+  }
+
+  .upper2-content>h2{
+    font-size: 50px;
+  }
+
+  .upper2-content>p{
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .button{
+    margin-top: 30px;
+    width: 90px;
+    height: 30px;
+    border: none;
+    background-color: white;
+  }
+  
+  .button:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+  }
+
+  .sec-5{
+    width: 100%;
+    height: 800px;
+    background-color: #0f1a3c;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px ;
+  } 
+
+  .seq4{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
+  .sec5content{
+    display: flex;
+  }
+
+  .sec5content>h2{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 50px;
+    color: white ;
+  }
+
+  .sec5card{
+    display: flex;
+  }
+  
+  .sec5card1{
+    width: 600px;
+    height: 600px;
+    margin-left: 100px;
+    border-radius: 30px;
+
+  }
+
+  .sec5card2{
+    width: 600px;
+    height: 600px;
+    margin-left: 100px;
+    border-radius: 30px;
+  }
+
+  .sec7{
+    width: 100%;
+    height: 500px;
+    background-color:#0f1a3c ;
+    margin-top: -150px;
+    padding-top: 150px;
+  }
+
+  .sec7content{
+    width: 550px;
+    border: 2px #0f1a3c;
+    margin-left: 450px;
+    color: white;
+    text-align: center;
+  }
+
+  .search{
+    background-color: white;
+    width: 400px;
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 520px;
+  }
+  
+  .search>input{
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: none;
+  }
+
+  .search>button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: #fe8c56;
+    color: white;
+  }
+
+  .search>button:hover{
+    cursor: pointer;
+    transform: scale(1.12);
+  }
+
+  .sec7content>h1{
+    font-size: 50px;
+    margin-top: 100px;
+  }
+
+  
+ 
+  
+  footer {
+    background-color: #0f1a3c;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  .last{
+    color: white;
+    background-color: #0f1a3c;
+    display: flex;
+    text-align: center;
+    height: 100px;
+  }
+
+  .last>a>img{
+    width: 25px;
+    height: 25px;
+    margin-left: 100px;
+    background-color: white;
+    border-radius: 30px;
+  }
+
+  .upper3>img{
+    width: 90%;
+    height: 100%;
+    border-radius: 30px ;
+    margin-left: 5%; 
+  }
+
+  .sec5card>div>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+
+  .last>img:hover{
+    transform: scale(1.12);
+    cursor: pointer;
+  }
+
+  .Discount {
+    position: absolute;
+    top: 3050px;
+    left: 950px;
+    font-size: 300px;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+  }
+
+
+  @media screen and (min-width: 480px) and (max-width: 768px) {
+    nav {
+      padding-left: 20px; /* Adjust padding for navigation links */
+
+    }
+
+    .logo {
+      margin-left: 0px;
+      height: 50px; 
+      width: auto; 
+      border-radius: 50%;
+    }
+
+    .links a {
+      margin: 0 30px; 
+    }
+  
+
+    .links {
+      display: none;
+    }
+
+    .links2 {
+      display: flex;
+      align-items: center;      
+      padding-left: 0px;
+      margin-left: 20px;
+    }
+
+    .links2>a{
+      margin-left: 30px;
+    }
+  
+    .sec-1 {
+      height: auto; /* Adjust height for the first section */
+      flex-direction: column; /* Change flex direction for smaller screens */
+      align-items: center; /* Center items vertically */
+    }
+  
+    .sec-1-content>div>button:hover{
+      cursor: pointer;
+      transform: scale(1.12);
+    }
+
+    .img-box {
+      width: 100%; /* Make the image box full width */
+      margin-left: -200px; /* Remove margin */
+    }
+  
+    .sec-1-content {
+      margin-left: 0; /* Adjust margin for content in the first section */
+      text-align: center; /* Center text in the first section */
+    }
+  
+    .sec-1-content > h1 {
+      font-size: 50px; /* Adjust font size for heading */
+    }
+  
+    .sec-2 {
+      flex-direction: column; /* Change flex direction for the second section */
+      padding: 20px; /* Adjust padding for the second section */
+    }
+  
+    .sec2card:hover {
+      transform: scale(1.12);
+    }
+
+    .sec2card-container {
+      flex-direction: column; /* Change flex direction for card container in the second section */
+    }
+  
+    .sec2card {
+      width: 100%; /* Make cards full width in the second section */
+     margin-left: 50px; /* Adjust margin for cards in the second section */
+    }
+  
+    .sec-2content {
+      margin-left: 150px;
+      margin-top: 50px; /* Adjust margin for content in the second section */
+    }
+  
+    .sec-3 {
+      display: flex;
+      padding: 20px; /* Adjust padding for the third section */
+    }
+  
+    .sec3card-container {
+      margin-left: 0;
+      width: 700px;
+    }
+  
+    .sec3card {
+      width: 450px; /* Make cards full width in the third section */
+      margin-left: 0; /* Adjust margin for cards in the third section */
+    }
+
+    .sec3card>button{
+      display: none;
+    }
+
+    .butt{
+        display: none;
+    }
+
+    .card-butt{
+      display: none;
+    }
+  
+    .sec-3-content {
+      margin-left: 0; /* Adjust margin for content in the third section */
+    }
+  
+    .upper {
+      margin-left: 20px; /* Adjust margin for the upper section */
+    }
+  
+    .upper2 {
+      display: flex;
+      width: 300px; /* Make upper2 section full width */
+      margin-left: 0;
+      display: none; /* Adjust margin for upper2 section */
+    }
+  
+    .upper3 {
+      display: none; /* Adjust margin for upper3 section */
+    }
+
+    .upper2-content{
+      display: none;
+    }
+  
+    .sec-5 {
+      height: auto; /* Adjust height for the fifth section */
+    }
+
+    
+    .seq4{
+      margin-left: 0px;
+    }
+    .sec5card1
+     {
+      width: 800px;
+      height: 400px;
+      margin-left: 0;
+       /* Make cards full width in the fifth section */
+       /* Adjust margin for cards in the fifth section */
+    }
+
+    .sec5card2{
+      width: 800px;
+      height: 500px;
+      margin-left: 0;
+    }
+  
+    .sec7 {
+      padding-top: px; /* Adjust padding for the seventh section */
+    }
+    .sec7content{
+      margin-left: 100px;
+    }
+  
+    .search {
+      margin-left: 170px; /* Adjust margin for the search bar */
+    }
+  
+    .footer a {
+      font-size: 14px; /* Adjust font size for footer links */
+      margin-left: 0px;
+      padding-left: 0px;
+    }
+
+    .last>a{
+      margin-left: -250px;
+    }
+  }
