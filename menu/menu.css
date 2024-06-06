@@ -1,12 +1,6 @@
 /* Import fonts and define color variables based on the provided design */
 @import url("https://fonts.googleapis.com/css2?family=Your+Font+Here&display=swap");
 
-:root {
-  --primary-color: #...; /* Primary color from design */
-  --secondary-color: #...; /* Secondary color from design */
-  /* Additional color variables as needed */
-}
-
 /* Apply global styles and styles for specific elements like headers, cards, etc. */
 body {
   font-family: "Your Font Here", sans-serif;

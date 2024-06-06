@@ -48,7 +48,7 @@ nav {
 
   .img-box {
     height: 400px;
-    width: 500px solid;
+    width: 500px;
     margin-top: 50px;
     border-radius: 20px;
   }
@@ -800,9 +800,6 @@ nav {
       margin-left: 0;
     }
   
-    .sec7 {
-      padding-top: px; /* Adjust padding for the seventh section */
-    }
     .sec7content{
       margin-left: 100px;
     }
